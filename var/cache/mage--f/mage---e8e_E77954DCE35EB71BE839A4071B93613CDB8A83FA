@@ -1,0 +1,26 @@
+<ul class="catblocks">
+    <li>
+        <a href="http://magento.test.com:3000/men/new-arrivals.html">
+            <img src="http://magento.test.com:3000/media/wysiwyg/mencat-newarrivalsimg.jpg" alt="New Arrivals" />
+            <span>New Arrivals</span>
+        </a>
+    </li>
+    <li>
+        <a href="http://magento.test.com:3000/men/shirts.html">
+            <img src="http://magento.test.com:3000/media/wysiwyg/clp-sub-m-shirts.jpg"  alt="Shirts" />
+            <span>Shirts</span>
+        </a>
+    </li>
+    <li>
+        <a href="http://magento.test.com:3000/men/tees-knits-and-polos.html">
+            <img src="http://magento.test.com:3000/media/wysiwyg/Mencat-teesimg.jpg" alt="Tees, Knits and Polos" />
+            <span>Tees, Knits and Polos</span>
+        </a>
+    </li>
+    <li>
+        <a href="http://magento.test.com:3000/men/pants-denim.html">
+            <img src="http://magento.test.com:3000/media/wysiwyg/mencat-pants.jpg" alt="Pants &amp; Denim" />
+            <span>Pants &amp; Denim</span>
+        </a>
+    </li>
+</ul>
