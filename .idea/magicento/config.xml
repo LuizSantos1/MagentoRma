@@ -265,7 +265,11 @@
                 <setup>
                     <module>Mage_Persistent</module>
                 </setup>
-            </persistent_setup><moneybookers_setup>
+            </persistent_setup><mfonsatti_rma_setup>
+                <setup>
+                    <module>Mfonsatti_Rma</module>
+                </setup>
+            </mfonsatti_rma_setup><moneybookers_setup>
                 <setup>
                     <module>Phoenix_Moneybookers</module>
                 </setup>
@@ -1711,7 +1715,12 @@
                         <table>persistent_session</table>
                     </session>
                 </entities>
-            </persistent_resource><moneybookers>
+            </persistent_resource><mfonsatti_rma>
+                <class>Mfonsatti_Rma_Model</class>
+                <resourceModel>mfonsatti_rma_resource</resourceModel>
+            </mfonsatti_rma><mfonsatti_rma_resource>
+                <class>Mfonsatti_Rma_Model_Resource</class>
+            </mfonsatti_rma_resource><moneybookers>
                 <class>Phoenix_Moneybookers_Model</class>
             </moneybookers></models>
     <blocks>
@@ -1796,7 +1805,9 @@
                 <class>Mage_Api2_Block</class>
             </api2><currencysymbol>
                 <class>Mage_CurrencySymbol_Block</class>
-            </currencysymbol><moneybookers><class>Phoenix_Moneybookers_Block</class></moneybookers></blocks><helpers>
+            </currencysymbol><mfonsatti_rma>
+                <class>Mfonsatti_Rma_Block</class>
+            </mfonsatti_rma><moneybookers><class>Phoenix_Moneybookers_Block</class></moneybookers></blocks><helpers>
             <core>
                 <encryption_model>Mage_Core_Model_Encryption</encryption_model>
             </core>
@@ -1838,7 +1849,9 @@
                 <class>Mage_Api2_Helper</class>
             </api2><currencysymbol>
                 <class>Mage_CurrencySymbol_Helper</class>
-            </currencysymbol><moneybookers>
+            </currencysymbol><mfonsatti_rma>
+                <class>Mfonsatti_Rma_Helper</class>
+            </mfonsatti_rma><moneybookers>
                 <class>Phoenix_Moneybookers_Helper</class>
             </moneybookers></helpers><template>
             <email>
@@ -6068,7 +6081,9 @@ T: {{var telephone}}
             <version>1.6.0.0</version>
         </Mage_Compiler><Mage_Persistent>
             <version>1.0.0.0</version>
-        </Mage_Persistent><Phoenix_Moneybookers>
+        </Mage_Persistent><Mfonsatti_Rma>
+            <version>0.1.0</version>
+        </Mfonsatti_Rma><Phoenix_Moneybookers>
             <version>1.6.0.0</version>
         </Phoenix_Moneybookers></modules><frontend>
         <routers>

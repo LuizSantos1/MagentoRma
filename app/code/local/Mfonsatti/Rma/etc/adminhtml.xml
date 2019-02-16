@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <sales>
+            <children>
+                <modulename translate="title">
+                    <title>RMA</title>
+                    <action>adminhtml/rma</action>
+                    <sort_order>100</sort_order>
+                </modulename>
+            </children>
+        </sales>
+    </menu>
+</config>

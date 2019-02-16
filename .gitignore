@@ -1,0 +1,16 @@
+# Magento default files
+app/etc/local.xml
+dev/
+downloader/
+errors/
+includes/
+media/
+shell/
+var/
+favicon.ico
+favicon.png
+# IDE files
+.idea/
+# Mac OS files
+*.DS_Store
+# Anything else
