@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mfonsatti_Rma>
+            <version>0.1.0</version>
+        </Mfonsatti_Rma>
+    </modules>
+    <global>
+        <models>
+            <mfonsatti_rma>
+                <class>Mfonsatti_Rma_Model</class>
+                <resourceModel>mfonsatti_rma_resource</resourceModel>
+            </mfonsatti_rma>
+            <mfonsatti_rma_resource>
+                <class>Mfonsatti_Rma_Model_Resource</class>
+            </mfonsatti_rma_resource>
+        </models>
+        <blocks>
+            <mfonsatti_rma>
+                <class>Mfonsatti_Rma_Block</class>
+            </mfonsatti_rma>
+        </blocks>
+        <helpers>
+            <mfonsatti_rma>
+                <class>Mfonsatti_Rma_Helper</class>
+            </mfonsatti_rma>
+        </helpers>
+        <resources>
+            <mfonsatti_rma_setup>
+                <setup>
+                    <module>Mfonsatti_Rma</module>
+                </setup>
+            </mfonsatti_rma_setup>
+        </resources>
+    </global>
+</config>
