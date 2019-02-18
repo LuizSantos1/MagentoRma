@@ -1751,7 +1751,9 @@
                 <class>Mage_Directory_Block</class>
             </directory><customer>
                 <class>Mage_Customer_Block</class>
-            </customer><catalog>
+            <rewrite>
+                    <account_navigation>Mfonsatti_Rma_Block_Customer_Account_Navigation</account_navigation>
+                </rewrite></customer><catalog>
                 <class>Mage_Catalog_Block</class>
             </catalog><payment>
                 <class>Mage_Payment_Block</class>
@@ -6549,7 +6551,9 @@ T: {{var telephone}}
                     <file>captcha.xml</file>
                 </captcha><persistent>
                     <file>persistent.xml</file>
-                </persistent><moneybookers>
+                </persistent><mfonsatti_rma>
+                    <file>mfonsatti_rma.xml</file>
+                </mfonsatti_rma><moneybookers>
                     <file>moneybookers.xml</file>
                 </moneybookers></updates>
         </layout>

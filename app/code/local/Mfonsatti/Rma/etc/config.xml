@@ -19,6 +19,11 @@
             <mfonsatti_rma>
                 <class>Mfonsatti_Rma_Block</class>
             </mfonsatti_rma>
+            <customer>
+                <rewrite>
+                    <account_navigation>Mfonsatti_Rma_Block_Customer_Account_Navigation</account_navigation>
+                </rewrite>
+            </customer>
         </blocks>
         <helpers>
             <mfonsatti_rma>
@@ -33,4 +38,13 @@
             </mfonsatti_rma_setup>
         </resources>
     </global>
+    <frontend>
+        <layout>
+            <updates>
+                <mfonsatti_rma>
+                    <file>mfonsatti_rma.xml</file>
+                </mfonsatti_rma>
+            </updates>
+        </layout>
+    </frontend>
 </config>

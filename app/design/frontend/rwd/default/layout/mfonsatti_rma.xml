@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<layout version="0.1.0">
+    <customer_account translate="label">
+        <reference name="customer_account_navigation">
+            <action method="addLink">
+                <name>rma</name>
+                <path>rma/index/index</path>
+                <label>RMA</label>
+                <!--<name>NAME OF THE YOUR LINK</name> // e.g <name>myemployeeorder</name>-->
+                <!--<path>PATH OF MODULE/CONTROLLER/ACTION</path> //E.g <path>orderenhance/index/order/</path>-->
+                <!--<label>Address Book</label></action> //E.g. <label>My Employee Orders</label>-->
+            </action>
+        </reference>
+    </customer_account>
+</layout>
