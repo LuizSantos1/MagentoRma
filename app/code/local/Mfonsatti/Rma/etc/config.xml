@@ -46,5 +46,14 @@
                 </mfonsatti_rma>
             </updates>
         </layout>
+        <routers>
+            <rma_router>
+                <use>standard</use>
+                <args>
+                    <module>Mfonsatti_Rma</module>
+                    <frontName>rma</frontName>
+                </args>
+            </rma_router>
+        </routers>
     </frontend>
 </config>

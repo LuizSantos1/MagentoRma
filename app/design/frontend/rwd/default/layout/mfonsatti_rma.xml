@@ -4,7 +4,7 @@
         <reference name="customer_account_navigation">
             <action method="addLink">
                 <name>rma</name>
-                <path>rma/index/index</path>
+                <path>rma</path>
                 <label>RMA</label>
                 <!--<name>NAME OF THE YOUR LINK</name> // e.g <name>myemployeeorder</name>-->
                 <!--<path>PATH OF MODULE/CONTROLLER/ACTION</path> //E.g <path>orderenhance/index/order/</path>-->
@@ -12,4 +12,7 @@
             </action>
         </reference>
     </customer_account>
+    <rma_router_index_index>
+        <update handle="customer_account" />
+    </rma_router_index_index>
 </layout>
