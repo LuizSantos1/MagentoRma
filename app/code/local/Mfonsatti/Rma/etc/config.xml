@@ -47,13 +47,13 @@
             </updates>
         </layout>
         <routers>
-            <rma_router>
+            <rma>
                 <use>standard</use>
                 <args>
                     <module>Mfonsatti_Rma</module>
                     <frontName>rma</frontName>
                 </args>
-            </rma_router>
+            </rma>
         </routers>
     </frontend>
 </config>

@@ -6276,13 +6276,13 @@ T: {{var telephone}}
                     <module>Mage_Persistent</module>
                     <frontName>persistent</frontName>
                 </args>
-            </persistent><rma_router>
+            </persistent><rma>
                 <use>standard</use>
                 <args>
                     <module>Mfonsatti_Rma</module>
                     <frontName>rma</frontName>
                 </args>
-            </rma_router><moneybookers>
+            </rma><moneybookers>
                 <use>standard</use>
                 <args>
                     <module>Phoenix_Moneybookers</module>

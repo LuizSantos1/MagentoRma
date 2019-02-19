@@ -12,7 +12,10 @@
             </action>
         </reference>
     </customer_account>
-    <rma_router_index_index>
+    <rma_index_index>
         <update handle="customer_account" />
-    </rma_router_index_index>
+        <reference name="my.account.wrapper">
+            <block type="mfonsatti_rma/rma" name="mfonsatti_rma_content" template="rma/rma.phtml"/>
+        </reference>
+    </rma_index_index>
 </layout>
